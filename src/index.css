@@ -77,6 +77,11 @@ body {
   transition: .1s;
 }
 
+#git { 
+  color: #fffeee; 
+  text-decoration: none; 
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
