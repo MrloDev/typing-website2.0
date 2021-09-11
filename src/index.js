@@ -235,7 +235,7 @@ const Extra = () => {
     return (
         <div id="info2">
             <div id="testInfo">
-                Info about the current test(to be added later)
+                Info about the current test.
             </div>
             <div id="history">
                 History of the tests(to be added later)
