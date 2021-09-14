@@ -170,6 +170,7 @@ function App() {
             if (event.code === "Escape")
                 generate(wordAmount); 
         }); 
+        document.getElementById('wordInput').removeEventListener("keyup", (event) => ()); 
         // vars 
         wordArray = []; 
         wordIndex = 0; 
