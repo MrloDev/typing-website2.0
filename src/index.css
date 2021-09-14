@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.word { 
+  display: inline-block; 
+  margin-right: 5px;
+  transition: .1s;
+}
+
+.word span {
+  transition: .15s;
+}
+
+#info2 { 
+  display: block;
+  background-color: #4070DE;
+  color: white;
+  font-size: x-large;
+  width: 90%;
+  height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+#info2 div { 
+  display: inline-block;
+  width: 50%;
+}
+
+.mainDiv { 
+  background-color: #4070DE;
+  color: #fffeee;
+  width: 90%;
+  height: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#info { 
+  background: none;
+  color: #fffeee;
+  width: 60%;
+  font-size: xx-large;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+}
+
+#wordInput {
+  width: 100%;
+  padding: 5px;
+  transition: 1s;
+}
+
+input { 
+  border-color: white;
+  border-style: solid;
+}
+
+input:focus { 
+  border-style: solid;
+  border-color: white;
+}
+
+.displayWords { 
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  height: auto;
+  font-size: x-large;
+  background-color: #495061;
+}
+
+.wordAmount { 
+  width: 80%;
+  padding: 5px;
+}
+
+.submitButton { 
+  width: 20%;
+  height: 150%; 
+  text-size-adjust: auto;
+  background-color: #495061;
+  color: white;
+  border-style: solid;
+  border-width: 3px;
+  padding: 4px;
+  border-color: #495061;
+}
+
+.submitButton:hover { 
+  background-color: #495061c7;
+  border-color: #495061c7;
+  transition: .1s;
+}
+
+.credits { 
+  margin-left: 5%;
+}
+
+#git { 
+  color: #fffeee;
+  text-decoration: none;
+  transition: .5s;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
