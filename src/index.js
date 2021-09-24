@@ -43,14 +43,14 @@ function App() {
         endTime = Math.floor((Date.now() - beginTime) / 100);  
 
         // setting the wpm
-        wpmNum = ((chars / endTime) * 120) * (correctChars / chars); 
+        wpmNum = ((chars / endTime) * 150) * (correctChars / chars); 
         wpmString = wpmNum.toString().substring(0, 5); 
         historyVar.push(wpmString, wordAmount); 
         document.getElementById('info').innerHTML = `${wpmString}WPM`
         document.getElementById('testInfo').innerHTML = `
             WPM: ${wpmString}
             <br />
-            RAW: ${((wordAmount / endTime) * 600).toString().substring(0, 5)}
+            RAW: ${((chars / endTime) * 150).toString().substring(0, 5)}
             <br /> 
             Time: ${endTime / 10}s
             <br />
